@@ -1581,21 +1581,35 @@ namespace CrossBoundaryBrushes
 				sw.WriteLine("b " + (v+1).ToString());
 			}
 		}
+
+        // Modify load/saveSegmentation() to support prinston benchmark 
 		public void SaveSegmentation(StreamWriter sw)
-		{
+		{   
 			int n = this.all_patches.Count;
 			if (n == 0) return;
 
-			sw.WriteLine(all_patches.Count.ToString());
+            int[] result = new int[mesh.FaceCount];
+            for (int i = 0; i < mesh.FaceCount; i++)
+            {
+                result[i] = n;
+            }
+
+			//sw.WriteLine(all_patches.Count.ToString());
 			int indexer = 0;
 			foreach (Patch patch in all_patches)
 			{
 				foreach (int v in patch.faces)
 				{
-					sw.WriteLine(v.ToString() + " " + indexer.ToString());
+					//sw.WriteLine(v.ToString() + " " + indexer.ToString());
+                    result[v] = indexer;
 				}
 				indexer++;
 			}
+
+            for (int i = 0; i < mesh.FaceCount; i++)
+            {
+                sw.WriteLine(result[i]);
+            }
 
 			//sw.WriteLine((n+1).ToString());
 			//for (int i = 0; i < this.patchid.Length; ++i)
