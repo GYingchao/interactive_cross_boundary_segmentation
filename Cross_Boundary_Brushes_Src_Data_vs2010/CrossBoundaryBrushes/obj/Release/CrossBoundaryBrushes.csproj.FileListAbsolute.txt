@@ -1,0 +1,31 @@
+D:\Code\Cross-Boundary Brushes Demo\IsolineEditing\bin\Release\CrossBoundaryBrushes.exe
+D:\Code\Cross-Boundary Brushes Demo\IsolineEditing\bin\Release\CrossBoundaryBrushes.pdb
+D:\Code\Cross-Boundary Brushes Demo\IsolineEditing\bin\Release\csgl.dll
+D:\Code\Cross-Boundary Brushes Demo\IsolineEditing\bin\Release\MyCholmodSolver.dll
+D:\Code\Cross-Boundary Brushes Demo\IsolineEditing\obj\Release\ResolveAssemblyReference.cache
+D:\Code\Cross-Boundary Brushes Demo\IsolineEditing\obj\Release\CrossBoundaryBrushes.csproj.GenerateResource.Cache
+D:\Code\Cross-Boundary Brushes Demo\IsolineEditing\obj\Release\CrossBoundaryBrushes.exe
+D:\Code\Cross-Boundary Brushes Demo\IsolineEditing\obj\Release\CrossBoundaryBrushes.pdb
+D:\Code\Cross-Boundary Brushes Demo\IsolineEditing\obj\Release\CrossBoundaryBrushes.Properties.Resources.resources
+D:\Code\Cross-Boundary Brushes Demo\IsolineEditing\obj\Release\CrossBoundaryBrushes.FormMain.resources
+D:\Code\Cross-Boundary Brushes Demo\CrossBoundaryBrushes\obj\Release\CrossBoundaryBrushes.exe
+D:\Code\Cross-Boundary Brushes Demo\CrossBoundaryBrushes\obj\Release\CrossBoundaryBrushes.pdb
+D:\Code\Cross-Boundary Brushes Demo\CrossBoundaryBrushes\bin\Release\CrossBoundaryBrushes.exe
+D:\Code\Cross-Boundary Brushes Demo\CrossBoundaryBrushes\bin\Release\CrossBoundaryBrushes.pdb
+D:\Code\Cross-Boundary Brushes Demo\CrossBoundaryBrushes\bin\Release\csgl.dll
+D:\Code\Cross-Boundary Brushes Demo\CrossBoundaryBrushes\bin\Release\MyCholmodSolver.dll
+D:\Code\Cross-Boundary Brushes Demo\CrossBoundaryBrushes\obj\Release\ResolveAssemblyReference.cache
+D:\Code\Cross-Boundary Brushes Demo\CrossBoundaryBrushes\obj\Release\CrossBoundaryBrushes.FormMain.resources
+D:\Code\Cross-Boundary Brushes Demo\CrossBoundaryBrushes\obj\Release\CrossBoundaryBrushes.Properties.Resources.resources
+D:\Code\Cross-Boundary Brushes Demo\CrossBoundaryBrushes\obj\Release\CrossBoundaryBrushes.csproj.GenerateResource.Cache
+D:\Research\implementations\segmentation\Cross_Boundary_Brushes_Src_Data\Cross_Boundary_Brushes_Src_Data\CrossBoundaryBrushes\obj\Release\CrossBoundaryBrushes.exe
+D:\Research\implementations\segmentation\Cross_Boundary_Brushes_Src_Data\Cross_Boundary_Brushes_Src_Data\CrossBoundaryBrushes\obj\Release\CrossBoundaryBrushes.pdb
+D:\Research\implementations\segmentation\Cross_Boundary_Brushes_Src_Data\Cross_Boundary_Brushes_Src_Data\CrossBoundaryBrushes\bin\Release\CrossBoundaryBrushes.exe
+D:\Research\implementations\segmentation\Cross_Boundary_Brushes_Src_Data\Cross_Boundary_Brushes_Src_Data\CrossBoundaryBrushes\bin\Release\CrossBoundaryBrushes.pdb
+D:\Research\implementations\segmentation\Cross_Boundary_Brushes_Src_Data\Cross_Boundary_Brushes_Src_Data\CrossBoundaryBrushes\bin\Release\csgl.dll
+D:\Research\implementations\segmentation\Cross_Boundary_Brushes_Src_Data\Cross_Boundary_Brushes_Src_Data\CrossBoundaryBrushes\bin\Release\MyCholmodSolver.dll
+D:\Research\implementations\segmentation\Cross_Boundary_Brushes_Src_Data\Cross_Boundary_Brushes_Src_Data\CrossBoundaryBrushes\obj\Release\ResolveAssemblyReference.cache
+D:\Research\implementations\segmentation\Cross_Boundary_Brushes_Src_Data\Cross_Boundary_Brushes_Src_Data\CrossBoundaryBrushes\obj\Release\CrossBoundaryBrushes.FormMain.resources
+D:\Research\implementations\segmentation\Cross_Boundary_Brushes_Src_Data\Cross_Boundary_Brushes_Src_Data\CrossBoundaryBrushes\obj\Release\CrossBoundaryBrushes.Properties.Resources.resources
+D:\Research\implementations\segmentation\Cross_Boundary_Brushes_Src_Data\Cross_Boundary_Brushes_Src_Data\CrossBoundaryBrushes\obj\Release\ResGen.read.1.tlog
+D:\Research\implementations\segmentation\Cross_Boundary_Brushes_Src_Data\Cross_Boundary_Brushes_Src_Data\CrossBoundaryBrushes\obj\Release\ResGen.write.1.tlog

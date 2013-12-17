@@ -1,0 +1,54 @@
+8
+
+dir
+6
+file:///D:/My%20Work/code/SVN_IsolineEditing/IsolineEditing/dll
+file:///D:/My%20Work/code/SVN_IsolineEditing
+
+
+
+2007-09-11T17:32:47.562500Z
+1
+goldfish
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b71ac361-9696-fa4a-bff8-693598125bf1
+
+csgl.dll
+file
+
+
+
+
+2007-09-12T17:59:25.890625Z
+0daa3e732e44203ca4231c8670dc0e3e
+2007-09-11T17:32:47.562500Z
+1
+goldfish
+has-props
+
+csgl.native.dll
+file
+
+
+
+
+2007-09-12T17:59:25.906250Z
+eea5c4e0d48cdf986c0c60541696a14e
+2007-09-11T17:32:47.562500Z
+1
+goldfish
+has-props
+

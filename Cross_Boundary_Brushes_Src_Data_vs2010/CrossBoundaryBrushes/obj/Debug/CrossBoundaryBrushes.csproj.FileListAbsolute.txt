@@ -1,0 +1,21 @@
+D:\Code\Cross-Boundary Brushes Demo\CrossBoundaryBrushes\bin\Debug\CrossBoundaryBrushes.exe
+D:\Code\Cross-Boundary Brushes Demo\CrossBoundaryBrushes\bin\Debug\CrossBoundaryBrushes.pdb
+D:\Code\Cross-Boundary Brushes Demo\CrossBoundaryBrushes\bin\Debug\csgl.dll
+D:\Code\Cross-Boundary Brushes Demo\CrossBoundaryBrushes\bin\Debug\MyCholmodSolver.dll
+D:\Code\Cross-Boundary Brushes Demo\CrossBoundaryBrushes\obj\Debug\ResolveAssemblyReference.cache
+D:\Code\Cross-Boundary Brushes Demo\CrossBoundaryBrushes\obj\Debug\CrossBoundaryBrushes.FormMain.resources
+D:\Code\Cross-Boundary Brushes Demo\CrossBoundaryBrushes\obj\Debug\CrossBoundaryBrushes.Properties.Resources.resources
+D:\Code\Cross-Boundary Brushes Demo\CrossBoundaryBrushes\obj\Debug\CrossBoundaryBrushes.csproj.GenerateResource.Cache
+D:\Code\Cross-Boundary Brushes Demo\CrossBoundaryBrushes\obj\Debug\CrossBoundaryBrushes.exe
+D:\Code\Cross-Boundary Brushes Demo\CrossBoundaryBrushes\obj\Debug\CrossBoundaryBrushes.pdb
+D:\Research\implementations\segmentation\Cross_Boundary_Brushes_Src_Data\Cross_Boundary_Brushes_Src_Data\CrossBoundaryBrushes\obj\Debug\CrossBoundaryBrushes.exe
+D:\Research\implementations\segmentation\Cross_Boundary_Brushes_Src_Data\Cross_Boundary_Brushes_Src_Data\CrossBoundaryBrushes\obj\Debug\CrossBoundaryBrushes.pdb
+D:\Research\implementations\segmentation\Cross_Boundary_Brushes_Src_Data\Cross_Boundary_Brushes_Src_Data\CrossBoundaryBrushes\bin\Debug\CrossBoundaryBrushes.exe
+D:\Research\implementations\segmentation\Cross_Boundary_Brushes_Src_Data\Cross_Boundary_Brushes_Src_Data\CrossBoundaryBrushes\bin\Debug\CrossBoundaryBrushes.pdb
+D:\Research\implementations\segmentation\Cross_Boundary_Brushes_Src_Data\Cross_Boundary_Brushes_Src_Data\CrossBoundaryBrushes\bin\Debug\csgl.dll
+D:\Research\implementations\segmentation\Cross_Boundary_Brushes_Src_Data\Cross_Boundary_Brushes_Src_Data\CrossBoundaryBrushes\bin\Debug\MyCholmodSolver.dll
+D:\Research\implementations\segmentation\Cross_Boundary_Brushes_Src_Data\Cross_Boundary_Brushes_Src_Data\CrossBoundaryBrushes\obj\Debug\ResolveAssemblyReference.cache
+D:\Research\implementations\segmentation\Cross_Boundary_Brushes_Src_Data\Cross_Boundary_Brushes_Src_Data\CrossBoundaryBrushes\obj\Debug\CrossBoundaryBrushes.FormMain.resources
+D:\Research\implementations\segmentation\Cross_Boundary_Brushes_Src_Data\Cross_Boundary_Brushes_Src_Data\CrossBoundaryBrushes\obj\Debug\CrossBoundaryBrushes.Properties.Resources.resources
+D:\Research\implementations\segmentation\Cross_Boundary_Brushes_Src_Data\Cross_Boundary_Brushes_Src_Data\CrossBoundaryBrushes\obj\Debug\ResGen.read.1.tlog
+D:\Research\implementations\segmentation\Cross_Boundary_Brushes_Src_Data\Cross_Boundary_Brushes_Src_Data\CrossBoundaryBrushes\obj\Debug\ResGen.write.1.tlog

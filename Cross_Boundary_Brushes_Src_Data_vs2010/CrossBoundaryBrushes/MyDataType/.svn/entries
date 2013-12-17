@@ -1,0 +1,52 @@
+8
+
+dir
+6
+file:///D:/My%20Work/code/SVN_IsolineEditing/IsolineEditing/MyDataType
+file:///D:/My%20Work/code/SVN_IsolineEditing
+
+
+
+2007-09-11T17:32:47.562500Z
+1
+goldfish
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b71ac361-9696-fa4a-bff8-693598125bf1
+
+Set.cs
+file
+
+
+
+
+2007-09-12T17:59:24.750000Z
+425005c1f213ad7df41dc5f73945bf2f
+2007-09-11T17:32:47.562500Z
+1
+goldfish
+
+PriorityQueue.cs
+file
+
+
+
+
+2007-09-12T17:59:24.765625Z
+21ad034458378467ec9e60a2f0051c8a
+2007-09-11T17:32:47.562500Z
+1
+goldfish
+
