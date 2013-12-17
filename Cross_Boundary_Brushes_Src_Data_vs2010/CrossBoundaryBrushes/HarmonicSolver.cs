@@ -1588,7 +1588,9 @@ namespace CrossBoundaryBrushes
 			int n = this.all_patches.Count;
 			if (n == 0) return;
 
+            // Use result to cache the faces
             int[] result = new int[mesh.FaceCount];
+            // For unLabeled part, use all_patches.Count as label.
             for (int i = 0; i < mesh.FaceCount; i++)
             {
                 result[i] = n;
@@ -1601,11 +1603,13 @@ namespace CrossBoundaryBrushes
 				foreach (int v in patch.faces)
 				{
 					//sw.WriteLine(v.ToString() + " " + indexer.ToString());
+                    // Reorder face sequences in result array.
                     result[v] = indexer;
 				}
 				indexer++;
 			}
 
+            // Write result to file.
             for (int i = 0; i < mesh.FaceCount; i++)
             {
                 sw.WriteLine(result[i]);
@@ -1635,30 +1639,52 @@ namespace CrossBoundaryBrushes
 
 			this.patchid = new byte[mesh.FaceCount];
 
-			char[] delimiters = { ' ', '\t' };
+			//char[] delimiters = { ' ', '\t' };
 			string s = "";
 
-			s = sr.ReadLine();
-			string[] tokens = s.Split(delimiters);
-			int count = int.Parse(tokens[0]);
+			//s = sr.ReadLine();
+			//string[] tokens = s.Split(delimiters);
+			//int count = int.Parse(tokens[0]);
 
-			for (int i = 1; i <= count; ++i)
+            // Use patchid as read buffer
+            // Keep the max label to find number of patches
+            int maxLabel = 0;
+            for (int faceId = 0; faceId < this.patchid.Length; faceId++ )
+            {
+                s = sr.ReadLine();
+                int label = int.Parse(s);
+                if (maxLabel < label) maxLabel = label;
+                this.patchid[faceId] = (byte)label;
+            }
+
+
+			for (int i = 1; i <= maxLabel; ++i)
 			{
 				Patch p = new Patch(i);
 				all_patches.Add(p);
 			}
 
-			while (sr.Peek() > -1)
-			{
-				s = sr.ReadLine();
-				tokens = s.Split(delimiters);
-				int index = int.Parse(tokens[1]);
-				int f = int.Parse(tokens[0]);
-				all_patches[index].faces.Add(f);
+            for (int i = 0; i < this.patchid.Length; i++)
+            {
+                // For in-patch faces, assign them into corresponding patches
+                if (this.patchid[i] < maxLabel)
+                {
+                    all_patches[patchid[i]].faces.Add(i);
+                }
+            }
+                /*
+                while (sr.Peek() > -1)
+                {
+                    s = sr.ReadLine();
+                    tokens = s.Split(delimiters);
+                    int index = int.Parse(tokens[1]);
+                    int f = int.Parse(tokens[0]);
+                    all_patches[index].faces.Add(f);
 
-				this.patchid[f] = (byte)index;
-			}
-			this.AssignPatchColors();
+                    this.patchid[f] = (byte)index;
+                }
+                */
+                this.AssignPatchColors();
 
 			this.displayMode = EnumDisplayMode.Segmentation;
 

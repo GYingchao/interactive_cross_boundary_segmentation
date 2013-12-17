@@ -592,7 +592,7 @@ namespace CrossBoundaryBrushes
 			if (currentMeshRecord != null && currentMeshRecord.CrossBoundaryBrushes != null)
 			{
 				this.openFileDialog1.FileName = "";
-				openFileDialog1.Filter = "txt File(*.txt)|*.txt";
+				openFileDialog1.Filter = "seg File(*.seg)|*.seg";
 
 				DialogResult ret = openFileDialog1.ShowDialog(this);
 				if (ret == DialogResult.OK)
