@@ -1242,6 +1242,14 @@ namespace CrossBoundaryBrushes
 		private List<Patch> patches = new List<Patch>();
 		
 		
+        // ------------------------------------------------------------
+        // Get the # of segmented patches
+        // ------------------------------------------------------------
+        public int countOfPatches()
+        {
+            return all_patches.Count;
+        }
+
 		public void AssignPatchColors()
 		{
 			int n = mesh.FaceCount;

@@ -609,7 +609,7 @@ namespace CrossBoundaryBrushes
 		{
 			if (currentMeshRecord != null && currentMeshRecord.CrossBoundaryBrushes != null)
 			{
-				this.saveFileDialog1.FileName = "";
+				this.saveFileDialog1.FileName = "" + currentMeshRecord.CrossBoundaryBrushes.countOfPatches();
 				saveFileDialog1.Filter = "seg File(*.seg)|*.seg";
 
 				DialogResult ret = saveFileDialog1.ShowDialog(this);
