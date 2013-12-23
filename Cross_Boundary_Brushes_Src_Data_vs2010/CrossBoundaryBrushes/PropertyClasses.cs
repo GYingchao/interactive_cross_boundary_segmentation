@@ -115,6 +115,74 @@ namespace CrossBoundaryBrushes
 			colorMall[31] = Color.FromArgb(148, 0, 211);
 			colorMall[32] = Color.FromArgb(205, 54, 22);
 			colorMall[33] = Color.FromArgb(32, 192, 255);
+
+            // Add more..
+            colorMall[34] = Color.FromArgb(0, 192, 255);
+            colorMall[35] = Color.FromArgb(185, 54, 22);
+            colorMall[36] = Color.FromArgb(118, 0, 211);
+            colorMall[37] = Color.FromArgb(200, 10, 0);
+            colorMall[38] = Color.FromArgb(189, 102, 147);
+            colorMall[39] = Color.FromArgb(146, 185, 211);
+            colorMall[40] = Color.FromArgb(50, 141, 186);
+            colorMall[41] = Color.FromArgb(152, 160, 0);
+            colorMall[42] = Color.FromArgb(200, 255, 0);
+            colorMall[43] = Color.FromArgb(255, 140, 30);
+            colorMall[44] = Color.FromArgb(50, 206, 209);
+            colorMall[45] = Color.FromArgb(202, 141, 164);
+            colorMall[46] = Color.FromArgb(40, 255, 10);
+            colorMall[47] = Color.FromArgb(70, 149, 237);
+            colorMall[48] = Color.FromArgb(30, 144, 225);
+            colorMall[49] = Color.FromArgb(128, 128, 205);
+            colorMall[50] = Color.FromArgb(98, 215, 129);
+            colorMall[51] = Color.FromArgb(243, 147, 28);
+            colorMall[52] = Color.FromArgb(255, 215, 20);
+            colorMall[53] = Color.FromArgb(0, 255, 167);
+            colorMall[54] = Color.FromArgb(255, 99, 21);
+            colorMall[55] = Color.FromArgb(218, 165, 132);
+            colorMall[56] = Color.FromArgb(230, 34, 80);
+            colorMall[57] = Color.FromArgb(250, 67, 129);
+            colorMall[58] = Color.FromArgb(255, 165, 30);
+            colorMall[59] = Color.FromArgb(0, 255, 215);
+            colorMall[60] = Color.FromArgb(227, 249, 176);
+            colorMall[61] = Color.FromArgb(210, 105, 80);
+            colorMall[62] = Color.FromArgb(0, 160, 40);
+            colorMall[63] = Color.FromArgb(173, 255, 17);
+            colorMall[64] = Color.FromArgb(218, 112, 144);
+            colorMall[65] = Color.FromArgb(100, 149, 207);
+            colorMall[66] = Color.FromArgb(255, 79, 123);
+            colorMall[67] = Color.FromArgb(243, 243, 35);
+            colorMall[68] = Color.FromArgb(255, 120, 0);
+            colorMall[69] = Color.FromArgb(0, 186, 209);
+            colorMall[70] = Color.FromArgb(222, 111, 184);
+            colorMall[71] = Color.FromArgb(0, 205, 0);
+            colorMall[72] = Color.FromArgb(100, 189, 237);
+            colorMall[73] = Color.FromArgb(30, 104, 255);
+            colorMall[74] = Color.FromArgb(128, 168, 255);
+            colorMall[75] = Color.FromArgb(98, 175, 159);
+            colorMall[76] = Color.FromArgb(243, 187, 78);
+            colorMall[77] = Color.FromArgb(255, 165, 0);
+            colorMall[78] = Color.FromArgb(0, 195, 127);
+            colorMall[79] = Color.FromArgb(255, 199, 71);
+            colorMall[80] = Color.FromArgb(218, 125, 32);
+            colorMall[81] = Color.FromArgb(230, 74, 110);
+            colorMall[82] = Color.FromArgb(250, 167, 89);
+            colorMall[83] = Color.FromArgb(255, 125, 0);
+            colorMall[84] = Color.FromArgb(0, 200, 255);
+            colorMall[85] = Color.FromArgb(227, 209, 136);
+            colorMall[86] = Color.FromArgb(210, 145, 30);
+            colorMall[87] = Color.FromArgb(0, 110, 10);
+            colorMall[88] = Color.FromArgb(173, 215, 47);
+            colorMall[89] = Color.FromArgb(218, 172, 214);
+            colorMall[90] = Color.FromArgb(100, 189, 237);
+            colorMall[91] = Color.FromArgb(255, 139, 163);
+            colorMall[92] = Color.FromArgb(243, 203, 5);
+            colorMall[93] = Color.FromArgb(255, 195, 0);
+            colorMall[94] = Color.FromArgb(192, 240, 0);
+            colorMall[95] = Color.FromArgb(50, 101, 216);
+            colorMall[96] = Color.FromArgb(186, 125, 211);
+            colorMall[97] = Color.FromArgb(219, 152, 147);
+            colorMall[98] = Color.FromArgb(255, 40, 0);
+            colorMall[99] = Color.FromArgb(148, 60, 211);
 			#endregion
 		}
 
@@ -122,7 +190,10 @@ namespace CrossBoundaryBrushes
 		private Color meshColor = Color.Tan;// Color.FromArgb(128, 150, 184, 255);//Color.DeepSkyBlue;
 		private Color pointColor = Color.Blue;
 		private Color lineColor = Color.Black;
-		private Color[] colorMall = new Color[42];
+
+        // Modify the colormall to support more colors
+        private Color[] colorMall = new Color[100];
+		//private Color[] colorMall = new Color[42];
 		private float pointSize = 7.0f;
 		private float lineWidth = 1.0f;
         private bool displaySelectedVertices = false;
